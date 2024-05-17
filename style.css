@@ -1,0 +1,364 @@
+/* !STYLES FROM FRONTEND MENTORS */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+:root{
+    --Very-DarkBlue: hsl(243, 87%, 12%);
+    --Desaturated-Blue: hsl(238, 22%, 44%);
+    --Bright-Blue: hsl(224, 93%, 58%);
+    --Moderate-Cyan: hsl(170, 45%, 43%);
+    --Light-Grayish-Blue: hsl(240, 75%, 98%);
+    --LightGray: hsl(0, 0%, 75%);
+}
+/* ! STYLES BY ME */
+/* ? DEFAULT STYLES */
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* max-width: 1200px; */
+    
+}
+p{
+    font-family: "Open Sans", sans-serif;
+  }
+button{
+    border: none;
+    outline: none;
+    background: none;
+    font-family: "Raleway", sans-serif;
+
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #fff;
+    color: var(--Very-DarkBlue);
+    z-index: 1000;
+    width: 100%; 
+  }
+  
+  header .container {
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    margin: 20px;
+  }
+  nav ul{
+    display: flex;
+    flex-direction: row;
+  }
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  ul li a {
+    color: var(--Very-DarkBlue);
+    padding: 10px 20px;
+    font-weight: 300;
+  }
+  
+  .dress {
+    max-width: 1200px;
+    margin: 80px auto 0; 
+    /* border: 3px solid violet; */
+    position: relative;
+  }
+  
+  .hero {
+    width: 90%;
+    margin: 0 auto 100px auto;
+    /* border: 3px solid seagreen; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .hero-content {
+    width: 50%;
+    /* border: 3px solid royalblue; */
+  }
+  
+  .intro {
+    color: var(--Very-DarkBlue);
+    font-size: 32px;
+    margin-bottom: 10px;
+    font-family: "Raleway", sans-serif;
+  }
+  
+  .text {
+    line-height: 20px;
+    margin: 15px 0;
+    font-size: 16px;
+    color: var(--Desaturated-Blue);
+  }
+  
+  input {
+    padding: 10px;
+    width: 250px;
+    margin:10px 0 0 0;
+    font-family: "Raleway", sans-serif;
+
+  }
+  
+  .btn {
+    margin: 5px 0 5px 0;
+    display: inline-block;
+    padding: 10px 35px;
+    border: none;
+    outline: none;
+    background: var(--Bright-Blue);
+    color: var(--Light-Grayish-Blue);
+  }
+  
+  .illustration {
+    width: 50%;
+  }
+  
+  .illustration img {
+    /* border: 3px solid hotpink; */
+    width: 100%;
+  }
+  .service {
+    width: 100%;
+    margin: 0;
+    padding: 80px 0;
+    background: url(images/bg-curve-desktop.svg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* border: 3px solid seagreen; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .left {
+    width: 50%;
+    padding:0 30px;
+    /* border: 3px solid royalblue; */
+  }
+  .right {
+    width: 50%;
+  }
+  
+  .right img {
+    /* border: 3px solid hotpink; */
+    width: 100%;
+  }
+  .okaybtn{
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: var(--Moderate-Cyan);
+    text-decoration: underline;
+    /* padding: 0 5px; */
+  }
+  .right svg{
+    padding: 0;
+    display: inline;
+    /* text-decoration: underline; */
+  }
+  .testimonial{
+    width: 70%;
+    padding:20px 10px;
+    border-radius: 5%;
+    background: #fff;
+    /* border: 3px double darkcyan; */
+  }
+  .testimonial p{
+    margin-top: 10px;
+  }
+  .client{
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+    margin-top: 20px;
+
+  }
+  .client img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  .namek{
+    font-weight: 700 ;
+    font-family: "Raleway", sans-serif;
+
+
+  }
+  .access{
+    width: 100%;
+    margin: 10px auto 0 auto;
+    padding: 80px 40px ;
+    color: var(--Light-Grayish-Blue);
+    /* border: 3px solid seagreen; */
+    background: var(--Desaturated-Blue);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .access h1{
+    color: var(--Light-Grayish-Blue);
+
+  }
+  .access .right input{
+    display: block;
+    width: 400px;
+  }
+  footer{
+    display: flex;
+    background: var(--Bright-Blue);
+    flex-direction: column;
+    color: var(--Light-Grayish-Blue);
+    padding: 80px 40px ;
+    font-family: "Open Sans", sans-serif;
+    
+
+  }
+  footer .down-foot{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+  }
+  .socials{
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 0 10px;
+    align-items: center;
+  }
+  .socials i{
+    width: 40px;
+    height: 40px;
+    border: 2px solid var(--Light-Grayish-Blue);
+    border-radius: 20px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    
+  }
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+    display: none;
+  }
+  .error-message2 {
+    color: white;
+    font-size: 14px;
+    margin-top: 5px;
+    display: none;
+  }
+  
+  .input-error {
+    border-color: red; 
+  }
+  
+  @media screen and (max-width: 980px) {
+    .container {
+      width: 95%;
+    }
+  
+    nav ul li {
+      margin-left: 5px;
+    }
+  
+    ul li a {
+      padding: 10px 5px;
+    }
+  
+    .logo {
+      margin: 15px 30px 15px 15px;
+    }
+  
+    .hero {
+      flex-direction: column-reverse; 
+      width: 100%;
+    }
+    .service {
+        flex-direction: column-reverse; 
+        width: 100%;
+      }
+      .access {
+        flex-direction: column; 
+        width: 100%;
+        padding: 10px;
+
+      }
+      footer .down-foot{
+       display: block;
+      }
+     .down-foot div{
+        margin: 15px auto;
+     }
+      .down-foot .socials{
+        justify-content: center;
+        margin: 0 auto;
+      }
+      .access .right{
+        width: 80%;
+        margin: 0 auto;
+      }
+      .access .right input{
+        display: block;
+        width: 300px;
+        
+      }
+    .hero-content {
+      width: 95%;
+      margin: 0 auto;
+      padding: 20px 0;
+      text-align: center;
+    }
+    .testimonial{
+        width: 80%;
+        margin: 20px auto;
+        text-align: left;
+    }
+    .textl{
+        text-align: left;
+    }
+    .left {
+        width: 95%;
+        margin: 0 auto;
+        padding: 20px 0;
+        text-align: center;
+      }
+  
+    .intro {
+      font-size: 30px;
+      width: 100;
+    }
+  
+    .illustration {
+      width: 100%;
+    }
+  
+    .btn {
+      margin: 30px 0;
+      display: inline-block;
+      padding: 10px 70px;
+      font-size: 16px;
+    }
+    .okaybtn{
+        margin: 0 auto;
+    }
+  }
+  
