@@ -32,7 +32,11 @@ button{
     outline: none;
     background: none;
     font-family: "Raleway", sans-serif;
+    cursor: pointer;
 
+}
+button:hover{
+    opacity: 0.5;
 }
 
 header {
